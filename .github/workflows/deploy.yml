@@ -14,14 +14,16 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-
-      - name: Cache pnpm modules and build
-        uses: actions/cache@v3
-        with:
-          path: |
-            node_modules
-            build
-          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+          cache: pnpm
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      # - name: Cache pnpm modules and build
+      #   uses: actions/cache@v3
+      #   with:
+      #     path: |
+      #       node_modules
+      #       build
+      #     key: ${{ runner.os }}-pnpm-${{ hashFiles('**/#pnpm-lock.yaml') }}
 
 
       - name: install
