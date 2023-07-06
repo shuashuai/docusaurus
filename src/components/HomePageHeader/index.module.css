@@ -1,0 +1,22 @@
+
+.h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.intro {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+
+@media screen and (max-width: 575px) {
+  .h1 {
+    font-size: 1.75rem;
+  }
+
+  .intro {
+    font-size: 1.25rem;
+  }
+}

@@ -1,0 +1,100 @@
+.features {
+  width: 100%;
+  margin-bottom: 84px;
+}
+
+.featureSvg {
+  width: 64px;
+  height: 64px;
+}
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  background: #F8F9FA;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  color: #212529;
+}
+
+ul {
+  margin-bottom:  0;
+}
+.linkWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.li::marker {
+  color: #0033FF;
+}
+
+.screenContent {
+  position: relative;
+  padding: 48px 0 158px !important;
+}
+.pcScreen {
+  width: 91.67%;
+  box-sizing: border-box;
+  padding: 8px;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.175);
+  background-color: #fff;
+}
+
+.screenMobile {
+  position: absolute;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 8px;
+  right: 0;
+  bottom: 77px;
+  max-width: 27%;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.175);
+  background-color: #fff;
+  box-shadow: -5px -5px 20px -4px rgba(0, 0, 0, 0.175);
+}
+
+.shadowWrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.shadow {
+  box-shadow: -5px -5px 20px -4px rgba(0, 0, 0, 0.175), 5px 5px 40px -4px rgba(0, 0, 0, 0.175);
+}
+.shadow2 {
+  box-shadow: 5px 5px 40px -4px rgba(0, 0, 0, 0.175);
+}
+
+
+.smmothImg {
+  border-radius: 8px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .h1 {
+    font-size: 2rem;
+  }
+
+  .screenContent {
+    padding: 22px 0 100px !important;
+  }
+  .pcScreen, .screenMobile , .boxShadow, .boxShadow2 {
+    border-radius: 6px;
+  }
+
+  .smmothImg {
+    border-radius: 6px;
+  }
+}
