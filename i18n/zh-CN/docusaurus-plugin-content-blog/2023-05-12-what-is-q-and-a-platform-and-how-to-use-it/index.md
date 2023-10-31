@@ -1,8 +1,10 @@
 ---
 title: What is Q&A Platform and How to Use it
-authors: [Anne]
+authors:
+  - Anne
 category: Tutorials
-tags: [tutorials]
+tags:
+  - tutorials
 featured: true
 image: 2023-05-12-cover@4x.png
 description: Learn Q&A platform, explore poplular Q&A platforms, and find out how to get the most out of it.
@@ -50,19 +52,19 @@ Here are some practical use cases of Q&A platforms:
 ### Businesses and Organizations
 
 1. Customer Support  
- One of the most popular use cases for Q&A platforms is providing customer support. Many businesses use Q&A platforms to answer customer questions, troubleshoot issues, and provide support on a variety of products and services.
+   One of the most popular use cases for Q&A platforms is providing customer support. Many businesses use Q&A platforms to answer customer questions, troubleshoot issues, and provide support on a variety of products and services.
 
 2. Knowledge Sharing  
- Q&A platforms are also great for sharing knowledge and expertise. They can be used to ask and answer questions on a variety of topics, from technical questions to academic discussions. This can be especially valuable for individuals seeking information on specific topics or for businesses looking to share their expertise with a wider audience.
+   Q&A platforms are also great for sharing knowledge and expertise. They can be used to ask and answer questions on a variety of topics, from technical questions to academic discussions. This can be especially valuable for individuals seeking information on specific topics or for businesses looking to share their expertise with a wider audience.
 
 3. Employee Training  
- Q&A platforms can also be used for employee training and development. They can be used to create a knowledge base for employees, allowing them to ask and answer questions about company policies, procedures, and best practices.
+   Q&A platforms can also be used for employee training and development. They can be used to create a knowledge base for employees, allowing them to ask and answer questions about company policies, procedures, and best practices.
 
 4. Recruitment  
- Q&A platforms can be a valuable tool for recruitment. They can be used to answer questions about job openings, company culture, and career opportunities, giving potential candidates a better understanding of the organization they may be joining.
+   Q&A platforms can be a valuable tool for recruitment. They can be used to answer questions about job openings, company culture, and career opportunities, giving potential candidates a better understanding of the organization they may be joining.
 
 5. Research  
- Last but not least, Q&A platforms can also be used for research purposes. They can be used to ask and answer questions on a variety of topics, helping individuals and organizations gather information and insights on specific subjects.
+   Last but not least, Q&A platforms can also be used for research purposes. They can be used to ask and answer questions on a variety of topics, helping individuals and organizations gather information and insights on specific subjects.
 
 ## What Makes a Great Q&A Platform
 
@@ -81,13 +83,13 @@ These are some key factors that not only makes a great Q&A platform for both que
 Follow the guide to build a basic Q&A platform, easy-peasy.
 
 1. Choose a Platform  
- Choose a platform that aligns with your needs and budget. There are open-source Q&A platforms available that offer a good starting point (you know, [Answer](https://answer.dev/) is open-source). Alternatively, you can use a hosted platform.
+   Choose a platform that aligns with your needs and budget. There are open-source Q&A platforms available that offer a good starting point (you know, [Answer](https://answer.dev/) is open-source). Alternatively, you can use a hosted platform.
 
 2. Customize the Design  
- Once you have chosen a platform, customize the design to match your branding and user interface requirements. Don’t forget to make the design responsive and optimized for different devices.
+   Once you have chosen a platform, customize the design to match your branding and user interface requirements. Don’t forget to make the design responsive and optimized for different devices.
 
 3. Add Questions and Answers  
- Create a few test questions and answers to give users an idea of what types of questions are appropriate and how to answer them. Encourage users to ask and answer questions, and here’s [a quick tip to kick-start a good question](https://meta.answer.dev/questions/D1L1/how-to-ask-a-good-question). Later on, moderate the content to ensure quality and adherence to community guidelines.
+   Create a few test questions and answers to give users an idea of what types of questions are appropriate and how to answer them. Encourage users to ask and answer questions, and here’s [a quick tip to kick-start a good question](https://meta.answer.dev/questions/D1L1/how-to-ask-a-good-question). Later on, moderate the content to ensure quality and adherence to community guidelines.
 
 ## Start and Manage Q&A Platform with Answer
 
@@ -97,11 +99,8 @@ Answer is knowledge-based community software, offering a smooth set-up for your 
 
 No matter what your Q&A platform is about, it’s always great to collect valuable insights and perspectives, and keep up-to-date answers. We’ve also packed up these resources that help you kick-start a joyful Answer journey:
 
-💻 [GitHub Repo](https://github.com/answerdev/answer): Keep an eye on what we are up to lately on GitHub.
-📄[Documents](https://answer.dev/docs/): Everything you need to build your Answer Community from zero to hero.
-🐞 [Bug Report](https://github.com/answerdev/answer/issues): Hunt a bug? Simply report it for us to track efficiently.
-🚩[Public Roadmap](https://github.com/orgs/answerdev/projects/1): Feel free to drop a comment here and be a part of our roadmap!
-  
+💻 [GitHub Repo](https://github.com/answerdev/answer): Keep an eye on what we are up to lately on GitHub. 📄[Documents](https://answer.dev/docs/): Everything you need to build your Answer Community from zero to hero. 🐞 [Bug Report](https://github.com/answerdev/answer/issues): Hunt a bug? Simply report it for us to track efficiently. 🚩[Public Roadmap](https://github.com/orgs/answerdev/projects/1): Feel free to drop a comment here and be a part of our roadmap!
+
 ## Conclusion
 
 We always have a question or an answer sometimes in our lives, so it is natural to have a Q&A platform. With [Answer](https://answer.dev/), you and your team will be able to solve problems, participate in discussions, and contribute fresh ideas to keep your business growing.
