@@ -4,12 +4,12 @@ sidebar_label: Notice
 
 # Open-Source Software Notice
 
-The project is built on and with the aid of the following open source projects. Credits are given to these projects.
+该项目建立在以下开源项目的基础上并得到其帮助。 我们向这些项目致以敬意。
 
 | Project                                                | License      |
 | ------------------------------------------------------ | ------------ |
 | https://npmjs.com/package/@testing-library/jest-dom    | MIT          |
-| https://npmjs.com/package/ahooks                       | MIT          |
+| https://www.npmjs.com/package/qrcode                   | MIT          |
 | https://npmjs.com/package/axios                        | MIT          |
 | https://npmjs.com/package/bootstrap                    | MIT          |
 | https://npmjs.com/package/bootstrap-icons              | MIT          |
@@ -17,7 +17,7 @@ The project is built on and with the aid of the following open source projects. 
 | https://npmjs.com/package/codemirror                   | MIT          |
 | https://npmjs.com/package/copy-to-clipboard            | MIT          |
 | https://npmjs.com/package/dayjs                        | MIT          |
-| https://npmjs.com/package/highlight.js                 | BSD-3-Clause |
+| https://www.npmjs.com/package/color                    | BSD-3-Clause |
 | https://npmjs.com/package/i18next                      | MIT          |
 | https://npmjs.com/package/i18next-chained-backend      | MIT          |
 | https://npmjs.com/package/i18next-http-backend         | MIT          |
@@ -41,7 +41,7 @@ The project is built on and with the aid of the following open source projects. 
 | https://github.com/gin-gonic/gin                       | MIT          |
 | https://github.com/go-playground/locales               | MIT          |
 | https://github.com/go-playground/universal-translator  | MIT          |
-| https://github.com/go-playground/validator/v10         | MIT          |
+| https://github.com/go-playground/validator             | MIT          |
 | https://github.com/go-sql-driver/mysql                 | MPL-2.0      |
 | https://github.com/goccy/go-json                       | MIT          |
 | https://github.com/google/uuid                         | BSD-3-Clause |
