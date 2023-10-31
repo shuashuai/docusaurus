@@ -1,6 +1,7 @@
 ---
 title: Everything You Need to Know About Answer
-authors: [Anne]
+authors:
+  - Anne
 category: Company
 featured: true
 image: 2023-06-29-cover@4x.png
@@ -13,9 +14,7 @@ Today, we'll share more stories behind Answer: how we started it, the tech stack
 
 ## What is Answer
 
-Answer is a Q&A software which allows users to ask and answer questions about a particular topic or subject. It’s open-source, and everyone can access it freely.
-You can use it to build a platform in the form of Q&A. No matter a knowledge base, product forum, a support, Answer got it covered.
-![Platforms built with Answer](everythingabtanswer1.png)
+Answer is a Q&A software which allows users to ask and answer questions about a particular topic or subject. It’s open-source, and everyone can access it freely. You can use it to build a platform in the form of Q&A. No matter a knowledge base, product forum, a support, Answer got it covered. ![Platforms built with Answer](everythingabtanswer1.png)
 
 ## Why Answer?
 
@@ -60,14 +59,11 @@ You can browse Answer in Safari, or Chrome on your mobile devices.
 
 ## Who build Answer?
 
-We are a small and agile team, working closely with each other in different cities. As a part of the open-source community, we have also received love and help from contributors around the world.
-![Answer Footer with Gratitude to Contributors](everythingabtanswer2.png)
+We are a small and agile team, working closely with each other in different cities. As a part of the open-source community, we have also received love and help from contributors around the world. ![Answer Footer with Gratitude to Contributors](everythingabtanswer2.png)
 
 ## Can I use Answer?
 
-Why not?
-With a simple and intuitive design, you can build a [knowledge base](../2023-05-30-everything-you-need-to-know-about-knowledge-base/index.md), game forum, or support center with Answer smoothly. [Answer 1.1.0](../2023-06-15-answer-1.1.0-release/index.md) also supports plugins so that you can enhance Answer’s performance in the way you want.
-![Plugin](everythingabtanswer3.png)
+Why not? With a simple and intuitive design, you can build a [knowledge base](../2023-05-30-everything-you-need-to-know-about-knowledge-base/index.md), game forum, or support center with Answer smoothly. [Answer 1.1.0](../2023-06-15-answer-1.1.0-release/index.md) also supports plugins so that you can enhance Answer’s performance in the way you want. ![Plugin](everythingabtanswer3.png)
 
 ## How do I Get Answer?
 
