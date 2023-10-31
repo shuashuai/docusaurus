@@ -1,54 +1,53 @@
----
----
+- - -
+- - -
 
-# 前端开发指南
+# Frontend
 
-## ⚙️ 先决条件
+## ⚙️ Prerequisites
 
 - [Node.js](https://nodejs.org/) `>=16.17`
 - [pnpm](https://pnpm.io/) `>=7`
 
-在构建 Answer 项目时需要 pnpm。使用以下命令安装 pnpm 工具：
+pnpm is required by building the Answer project. To installing the pnpm tools with below commands:
 
 ```bash
 corepack enable
 corepack prepare pnpm@v7.12.2 --activate
 ```
 
-使用 Node.js v16.17 或更新版本，可以通过指定标签来安装最新版本的 pnpm：
+With Node.js v16.17 or newer, you may install the latest version of pnpm by just specifying the tag:
 
 ```bash
 corepack prepare pnpm@latest --activate
 ```
 
-## 🔨 开发
+## 🔨 Development
 
-在本地克隆仓库并在终端中运行以下命令：
+clone the repo locally and run following command in your terminal:
 
 ```shell
-git clone git@github.com:answerdev/answer.git answer
-cd answer/ui
-pnpm install
-pnpm start
+$ git clone git@github.com:answerdev/answer.git answer
+$ cd answer/ui
+$ pnpm install
+$ pnpm start
 ```
 
-现在，你的浏览器应该自动打开并加载 `http://localhost:3000`。你也可以手动访问它。
+now, your browser should already open automatically, and autoload `http://localhost:3000`. you can also manually visit it.
 
-## 👷 工作流
+## 👷 Workflow
 
-克隆仓库并运行 pnpm install 初始化依赖项后，你可以使用以下项目命令：
+when cloning repo, and run `pnpm install` to init dependencies. you can use project commands below:
 
-- `pnpm start` 在本地运行 Answer 网站。
-- `pnpm build` 为生产环境构建 Answer。
-- `pnpm lint` 检查和修复代码风格。
+- `pnpm start` run Answer web locally.
+- `pnpm build` build Answer for production
+- `pnpm lint` lint and fix the code style
 
-## 🌍 I18n（多语言）
+## 🌍 I18n(Multi-language)
+If you need to add or edit a language entry, just go to the `/i18n/en_US.yaml` file, all front-end language entries are placed under the `ui` field.
 
-如果你需要添加或编辑语言条目，只需转到 `/i18n/en_US.yaml` 文件，所有前端语言条目都放在 `ui` 字段下。
+If you would like to help us with the i18n translation, please visit [Answer at Crowdin](https://crowdin.com/translate/answer)
 
-如果想帮助我们进行 i18n 翻译，请访问 [Answer at Crowdin](https://crowdin.com/translate/answer) 。
-
-## 💡 项目说明
+## 💡 Project instructions
 
 ```
 .
@@ -78,42 +77,38 @@ pnpm start
             ├── plugins (UI Plugin Development & Debugging Directory)
 ```
 
-## 🤝 贡献
+## 🤝 Contributing
 
-#### 修复 Bug
+#### Fix Bug
+If you find a bug, please don't hesitate to [submit an issue](https://github.com/answerdev/answer/issues) to us. If you can fix it, please include a note with your issue submission. If it is a bug definitely, you can submit your PR after we confirm it, which will ensure you don't do anything useless.
 
-如果你发现了一个 bug，请不要犹豫地 [提交 issue](https://github.com/answerdev/answer/issues)。如果你能修复它，请在提交 issue 时附上说明。如果它确实是一个 bug，你可以在我们确认后提交 PR，这将确保你不会做任何无用的工作。
+#### Code Review & Comment
+In our development, some codes are not logical we know. If you find it, please don't hesitate to submit PR to us. In the same way, some function has no comment. We would appreciate it if you could help us supplement it.
 
-#### 代码审查 & 注释
+#### Translation
+All our translations are placed in the i18n directory.
 
-在我们的开发中，有些代码不太合逻辑。如果你发现了它，请不要犹豫地向我们提交 PR。同样，一些函数没有注释。如果你能帮助我们补充它，我们将不胜感激。
+1. If you find that the corresponding key in the language you are using does not have a translation, you can submit your translation.
+2. If you want to submit a new language translation, please add your language to the `i18n.yaml` file.
 
-#### 翻译
+#### Features or Plugin
+1. We developed the features for the plan based on the [roadmap](https://github.com/orgs/answerdev/projects/1). If you are suggestions for new functions, please confirm whether they have been planned.
+2. Plugins will be available in the future, so stay tuned.
 
-我们所有的翻译都放在 `i18n` 目录下。
-
-1. 如果你发现你正在使用的语言中对应的键没有翻译，你可以提交你的翻译。
-2. 如果你想提交新的语言翻译，请将你的语言添加到 `i18n.yaml` 文件中。
-
-#### 功能或插件
-
-1. 我们根据 [roadmap](https://github.com/orgs/answerdev/projects/1) 制定计划开发功能。如果你有新功能的建议，请确认它们是否已经计划。
-2. 插件将来会推出，敬请期待。
-
-## 📱环境支持
+## 📱Environment Support
 
 | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br />Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br />Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br />Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br />Safari |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 最近 2 个版本                                                                                                                                                                                          | 最近 2 个版本                                                                                                                                                                                     | 最近 2 个版本                                                                                                                                                                                     | 最近 2 个版本                                                                                                                                                                                 |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| last 2 versions                                                                                                                                                                                                               | last 2 versions                                                                                                                                                                                                                           | last 2 versions                                                                                                                                                                                                                       | last 2 versions                                                                                                                                                                                                                       |
 
-## ⭐ 使用了以下工具
+## ⭐ Built with
+- [TypeScript](https://www.typescriptlang.org/) - Strongly typed JavaScript
+- [React.js](https://reactjs.org/) - Our front end is a React.js app
+- [React Router](https://reactrouter.com/en/main) - Router library
+- [Bootstrap](https://getbootstrap.com/) - UI library.
+- [React Bootstrap](https://react-bootstrap.github.io/) - UI Library(rebuilt for React)
+- [axios](https://github.com/axios/axios) - Request library
+- [SWR](https://swr.bootcss.com/) - Request library
+- [react-i18next](https://react.i18next.com/) - International library
+- [zustand](https://github.com/pmndrs/zustand) - State-management library
 
-- [TypeScript](https://www.typescriptlang.org/) - 强类型 JavaScript。
-- [React.js](https://reactjs.org/) - 我们的前端是一个 React.js 应用程序。
-- [React Router](https://reactrouter.com/en/main) - 路由库。
-- [Bootstrap](https://getbootstrap.com/) -  UI 库。
-- [React Bootstrap](https://react-bootstrap.github.io/) - UI 库（为 React 重新构建）。
-- [axios](https://github.com/axios/axios) - 请求库。
-- [SWR](https://swr.bootcss.com/) - 请求库。
-- [react-i18next](https://react.i18next.com/) - 国际化库。
-- [zustand](https://github.com/pmndrs/zustand) - 状态管理库。
