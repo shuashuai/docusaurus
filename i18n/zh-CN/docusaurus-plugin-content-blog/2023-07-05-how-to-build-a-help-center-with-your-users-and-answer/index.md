@@ -1,21 +1,21 @@
 ---
 title: How to Build a Help Center with Your Users and Answer
-authors: [Anne]
+authors:
+  - Anne
 category: Tutorials
 featured: true
 image: 2023-07-05-cover@4x.png
 description: "Build a help center with tutorials and tips from Answer, and the best part is with your users in this journey."
-
 ---
 
-You have to admit that, your customers always have and will ask questions even if your product is perfect. Obviously, not every question needs a team to solve, which makes self-service effective (a support team is still needed). That’s what help center comes for: provide the right information, in a right approach, at the right time for your customers. 
+You have to admit that, your customers always have and will ask questions even if your product is perfect. Obviously, not every question needs a team to solve, which makes self-service effective (a support team is still needed). That’s what help center comes for: provide the right information, in a right approach, at the right time for your customers.
 
 In today’s blog, we will build a help center from the scratch with a bit of community sprit in Answer.
 
 ## What’s a Help Center
 A Help Center serves as a valuable resource for users. It provides customers immediate help by helping them find answers and resolve issues independently.
 
-When building a help center, here are 2 common questions you need to address:  
+When building a help center, here are 2 common questions you need to address:
 
 **What types of answers or help do users require?**       
 **How can they always get the answers they require?**          
@@ -25,14 +25,13 @@ No worries, we will resolve these problems one by one and build a help center fr
 
 
 ## Why Answer for a Help Center?
-Here’s how a traditional help center works: users come and seek answers, administrators provide answers constantly, and everything goes over again. 
+Here’s how a traditional help center works: users come and seek answers, administrators provide answers constantly, and everything goes over again.
 
 ![Traditional Help Center](HowHelpCenterWorks.png)
 
 As the content in the help center becomes abundant, things change. For users, finding the correct answer can be challenging. Similarly, administrators face the pressure of maintaining, and running an effective help center.
 
-However, in Answer, everything is entirely different from traditional help center.
-In Answer, **everyone can ask and respond**, creating a mutual way interaction. Every user can ask a question, contribute, vote for an answer, etc. Here, the user is no longer waiting for answers passively, but becomes a part of help center management. This also alleviates the pressure of administrators, allowing them to focus on the roadmap of the help center.
+However, in Answer, everything is entirely different from traditional help center. In Answer, **everyone can ask and respond**, creating a mutual way interaction. Every user can ask a question, contribute, vote for an answer, etc. Here, the user is no longer waiting for answers passively, but becomes a part of help center management. This also alleviates the pressure of administrators, allowing them to focus on the roadmap of the help center.
 
 ## Build a Help Center with Answer (Tutorials and Tips)
 The essence of a help center is to provide the right answer to the problems occurring already, and Answer is born for this. Here’s how, and you’ll know why.
@@ -48,7 +47,7 @@ You can also [Pin recent FAQs](https://answer.dev/blog/2023/05/11/answer-1.0.9-r
 
 ![Pin an FAQ in Answer](Pin.png)
 
-### 02. Make Content Consistent 
+### 02. Make Content Consistent
 In Answer, help center is not just about self-service, but also about helping each other. Customers can also write answers to others, then admin and moderator will read and accept the best answers. If the question is answered perfectly in content, but not consistent with your style guide, you can have an admin or moderator to tune and make it looks shining again.
 
 ![Approved Answer](ApprovedAnswer.png)
@@ -69,7 +68,7 @@ Add a description for your users to know what the tag is about, and what content
 ### 04. Keep the Answers Fresh and Ready
 Don’t make your help center end up with outdated answers. Though users are actively becoming a part of the community, moderators still need regular review and edit. Keep an eye on product launch, tweaks and updates, and you’ll notice how effective tags can be when updating the content.
 
-When updating or editing a post, use [Unlist](https://answer.dev/blog/2023/05/11/answer-1.0.9-release#whats-new) to hide the post temporarily to avoid misunderstanding. 
+When updating or editing a post, use [Unlist](https://answer.dev/blog/2023/05/11/answer-1.0.9-release#whats-new) to hide the post temporarily to avoid misunderstanding.
 
 ![Unlist a Question in Answer](UnlistQuestion.gif)
 
@@ -77,30 +76,30 @@ When updating or editing a post, use [Unlist](https://answer.dev/blog/2023/05/11
 Answer provides various ways for users to access the content they are searching for. Besides browsing in the help center, users can also get answers in the following ways:
 
 **1. Search**       
-	Users can search for a keyword for an answer, and use a filter to sort the answers they need.
-	
+Users can search for a keyword for an answer, and use a filter to sort the answers they need.
+
 ![Search in Answer](Search.png)
 
-Answer also provides advanced search tips to boost search efficiency, offering a smooth self-service experience. 
-	
+Answer also provides advanced search tips to boost search efficiency, offering a smooth self-service experience.
+
 ![Advanced Search Tips](AdvancedSearchTips.png)
 
 **2. Click or Follow a Tag**      
-	Users can click and view all the content under this tag. It’s like a bookshelf in the library where it collects all related books.
+Users can click and view all the content under this tag. It’s like a bookshelf in the library where it collects all related books.
 
 ![Alt text](FollowaTag.png)
 
 **3. Related Questions**      
-	You’ll find related questions in every post, providing relevant content for users to access easily.
-	
+You’ll find related questions in every post, providing relevant content for users to access easily.
+
 ![Related Question in Answer](RelatedQuestions.png)
 
 **4. Add Additional Resources**       
-    You can customize Answer freely, such as adding extra information in the sidebar. In [Answer 1.1.0](../2023-06-15-answer-1.1.0-release/index.md), we support [plugin](https://github.com/answerdev/plugins) and your Answer is about to fly.
+You can customize Answer freely, such as adding extra information in the sidebar. In [Answer 1.1.0](../2023-06-15-answer-1.1.0-release/index.md), we support [plugin](https://github.com/answerdev/plugins) and your Answer is about to fly.
 
 ![Customize Sidebar in Answer](Sidebar.png)
 
-## What's More 
+## What's More
 You might also be concerned about having numerous similar questions, which increases the workload for the administrators. Answer got it covered for you. When users fill a title, Answer automatically displays similar questions which are existed in the community. User can click and jump right to that question.
 
 ![Related Questions](RelatedQuestions.png)
