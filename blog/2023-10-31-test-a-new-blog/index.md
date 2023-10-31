@@ -2,7 +2,7 @@
 title: "this is a test blog"
 authors: [Anne]
 category: Release
-featured: faulse
+featured: false
 image: 2023-05-11-cover@4x.png
 description: this is a test blog's description
 ---
@@ -16,4 +16,7 @@ preserve_hierarchy: preserve the folder's hierarchy of your docs on Crowdin UI i
 
 This tutorial uses the CLI version 3.5.2, but we expect 3.x releases to keep working.
 
+Install the Crowdin CLI as an npm package to your Docusaurus site:
+
+Install the Crowdin CLI as an npm package to your Docusaurus site:
 Install the Crowdin CLI as an npm package to your Docusaurus site:

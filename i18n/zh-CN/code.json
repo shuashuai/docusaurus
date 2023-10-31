@@ -1,548 +1,527 @@
 {
-  "Best Practice": {
-    "message": "最佳实践"
+  "contact.email": {
+    "message": "Email us at {br} support@answer.dev"
   },
-  "Company": {
-    "message": "公司新闻"
+  "contact.community": {
+    "message": "Ask the {br} Answer Community"
   },
-  "Insights": {
-    "message": "深度洞察"
+  "contact.twitter": {
+    "message": "Tweet or Message {br} @AnswerDev on Twitter"
   },
-  "Tutorials": {
-    "message": "使用指南"
+  "Contact Us": {
+    "message": "Contact Us"
   },
-  "Release": {
-    "message": "更新发布"
+  "contact.getSupport": {
+    "message": "Get Support"
   },
-  "blogCategoriesNav.all": {
-    "message": "全部"
+  "contact.marketing.title": {
+    "message": "Marketing Inquiries"
   },
-  "blogCategoryPostsPage.posts": {
-    "message": "“{category_name}” 帖子"
+  "contact.marketing.email": {
+    "message": "Send Email to {email}"
+  },
+  "contact.above.title": {
+    "message": "None of the Above?"
+  },
+  "contact.above.description": {
+    "message": "If you don’t find what you’re looking for, please use the form below to submit your request. We’ll try and get back to you as soon as possible."
+  },
+  "loading": {
+    "message": "Loading..."
+  },
+  "waitlist.title": {
+    "message": "Answer Cloud is coming soon!"
+  },
+  "waitlist.description": {
+    "message": "We are working hard to build Answer Cloud solution. Fill out the form now to stay on top of the latest product updates, development inspirations, and user research prompt. We will keep your information secure at all times."
+  },
+  "home.features.title1": {
+    "message": "Q&A Platform"
+  },
+  "home.features.item1": {
+    "message": "Help members with questions and boost community participation. Your experts are happy to contribute, verify, upvote correct info. Your info keeping up-to-date and trusted."
+  },
+  "home.features.title2": {
+    "message": "Organized"
+  },
+  "home.features.item2": {
+    "message": "Use tags to organize questions and help contents into categories. They make knowledge easy to find for others. Use the search to quickly find the answer."
+  },
+  "home.features.title3": {
+    "message": "Integrations"
+  },
+  "home.features.item3": {
+    "message": "Configure your community with plugins and your favorite services. So that you can improve your workflow, grow your community, or make your other tools better."
+  },
+  "home.features.comming_soon": {
+    "message": "Coming soon"
+  },
+  "home.features.title4": {
+    "message": "Gamification"
+  },
+  "home.features.item4": {
+    "message": "We've gamified the Q&A platform with reputation and badges. So the community members and teams have fun collaborating and getting work done."
+  },
+  "home.features.title": {
+    "message": "Features"
+  },
+  "home.contribute.title": {
+    "message": "We welcome all contributions"
+  },
+  "home.contribute.ways": {
+    "message": "Here are some quick ways you can help the community."
+  },
+  "home.contribute.item1": {
+    "message": "Contribute to our open-source codebase on GitHub"
+  },
+  "home.contribute.item2": {
+    "message": "Help us improve the docs"
+  },
+  "home.contribute.item3": {
+    "message": "Help us translate language resources"
   },
   "blogHeader.title": {
-    "message": "博客"
+    "message": "Blog"
   },
   "blogHeader.slogon": {
-    "message": "探索关于 Answer 的方方面面，让你的问答社区更强大、更有影响力。"
+    "message": "Learn everything about Answer and leverage your Q&A community to the next level."
   },
-  "theme.docs.paginator.previous": {
-    "message": "上一页",
-    "description": "The label used to navigate to the previous doc"
+  "contact.title": {
+    "message": "Contact us"
   },
-  "theme.docs.paginator.next": {
-    "message": "下一页",
-    "description": "The label used to navigate to the next doc"
+  "contact.slogon": {
+    "message": "We always get an answer to your question."
   },
-  "blogPostItem.tags": {
-    "message": "标签："
+  "home.waitlist.title": {
+    "message": "👋 Join the Answer Cloud Waitlist"
   },
-  "blogPostItem.share": {
-    "message": "分享到"
+  "home.title": {
+    "message": "Build Q&A Community {br} with Answer"
   },
-  "blogPostItem.readingTime": {
-    "message": "阅读需 {reading_time} 分钟"
+  "home.description": {
+    "message": "An open-source knowledge-based community software. {br} You can use it quickly to build Q&A community for your products, customers, teams, and more."
   },
-  "blogPostItem.relatedPosts": {
-    "message": "相似帖子"
-  },
-  "theme.ErrorPageContent.title": {
-    "message": "页面已崩溃。",
-    "description": "The title of the fallback page when the page crashed"
-  },
-  "theme.NotFound.title": {
-    "message": "找不到页面",
-    "description": "The title of the 404 page"
-  },
-  "theme.NotFound.p1": {
-    "message": "我们找不到你要找的页面。",
-    "description": "The first paragraph of the 404 page"
-  },
-  "theme.NotFound.p2": {
-    "message": "请联系原始链接来源网站的所有者，并告知他们链接已损坏。",
-    "description": "The 2nd paragraph of the 404 page"
-  },
-  "theme.blog.archive.title": {
-    "message": "过往博客",
-    "description": "The page & hero title of the blog archive page"
-  },
-  "theme.blog.archive.description": {
-    "message": "过往博客",
-    "description": "The page & hero description of the blog archive page"
+  "home.btn.started": {
+    "message": "Get Started"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "回到顶部",
+    "message": "Scroll back to top",
     "description": "The ARIA label for the back to top button"
   },
-  "theme.admonition.note": {
-    "message": "备注",
-    "description": "The default label used for the Note admonition (:::note)"
-  },
-  "theme.admonition.tip": {
-    "message": "提示",
-    "description": "The default label used for the Tip admonition (:::tip)"
-  },
-  "theme.admonition.danger": {
-    "message": "危险",
-    "description": "The default label used for the Danger admonition (:::danger)"
-  },
-  "theme.admonition.info": {
-    "message": "信息",
-    "description": "The default label used for the Info admonition (:::info)"
-  },
-  "theme.admonition.caution": {
-    "message": "警告",
-    "description": "The default label used for the Caution admonition (:::caution)"
-  },
-  "theme.blog.paginator.navAriaLabel": {
-    "message": "博文列表分页导航",
-    "description": "The ARIA label for the blog pagination"
-  },
-  "theme.blog.paginator.newerEntries": {
-    "message": "较新的博文",
-    "description": "The label used to navigate to the newer blog posts page (previous page)"
-  },
-  "theme.blog.paginator.olderEntries": {
-    "message": "较旧的博文",
-    "description": "The label used to navigate to the older blog posts page (next page)"
-  },
-  "theme.blog.post.paginator.navAriaLabel": {
-    "message": "博文分页导航",
-    "description": "The ARIA label for the blog posts pagination"
-  },
-  "theme.blog.post.paginator.newerPost": {
-    "message": "较新一篇",
-    "description": "The blog post button label to navigate to the newer/previous post"
-  },
-  "theme.blog.post.paginator.olderPost": {
-    "message": "较旧一篇",
-    "description": "The blog post button label to navigate to the older/next post"
-  },
-  "theme.blog.post.plurals": {
-    "message": "{count} 篇博文",
-    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "theme.blog.tagTitle": {
-    "message": "{nPosts} 含有标签「{tagName}」",
-    "description": "The title of the page for a blog tag"
-  },
-  "theme.tags.tagsPageLink": {
-    "message": "查看所有标签",
-    "description": "The label of the link targeting the tag list page"
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Breadcrumbs",
+    "description": "The ARIA label for the breadcrumbs"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "切换浅色/暗黑模式（当前为{mode}）",
+    "message": "Switch between dark and light mode (currently {mode})",
     "description": "The ARIA label for the navbar color mode toggle"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
-    "message": "暗黑模式",
+    "message": "dark mode",
     "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "浅色模式",
+    "message": "light mode",
     "description": "The name for the light color mode"
   },
   "theme.docs.DocCard.categoryDescription": {
-    "message": "{count} 个项目",
+    "message": "{count} items",
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
-  "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "页面路径",
-    "description": "The ARIA label for the breadcrumbs"
-  },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "文档分页导航",
+    "message": "Docs pages navigation",
     "description": "The ARIA label for the docs pagination"
   },
+  "theme.docs.paginator.previous": {
+    "message": "Previous",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Next",
+    "description": "The label used to navigate to the next doc"
+  },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "{count} 篇文档带有标签",
+    "message": "One doc tagged|{count} docs tagged",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
-    "message": "{nDocsTagged}「{tagName}」",
+    "message": "{nDocsTagged} with \"{tagName}\"",
     "description": "The title of the page for a docs tag"
   },
+  "theme.tags.tagsPageLink": {
+    "message": "View All Tags",
+    "description": "The label of the link targeting the tag list page"
+  },
   "theme.docs.versionBadge.label": {
-    "message": "版本：{versionLabel}"
+    "message": "Version: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "此为 {siteTitle} {versionLabel} 版尚未发行的文档。",
+    "message": "This is unreleased documentation for {siteTitle} {versionLabel} version.",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "此为 {siteTitle} {versionLabel} 版的文档，现已不再积极维护。",
+    "message": "This is documentation for {siteTitle} {versionLabel}, which is no longer actively maintained.",
     "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "最新的文档请参阅 {latestVersionLink} ({versionLabel})。",
+    "message": "For up-to-date documentation, see the {latestVersionLink} ({versionLabel}).",
     "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
-    "message": "最新版本",
+    "message": "latest version",
     "description": "The label used for the latest version suggestion link label"
   },
-  "theme.common.editThisPage": {
-    "message": "编辑此页",
-    "description": "The link label to edit the current page"
-  },
-  "theme.common.headingLinkTitle": {
-    "message": "{heading}的直接链接",
-    "description": "Title for link to heading"
-  },
-  "theme.lastUpdated.atDate": {
-    "message": "于 {date} ",
-    "description": "The words used to describe on which date a page has been last updated"
-  },
-  "theme.lastUpdated.byUser": {
-    "message": "由 {user} ",
-    "description": "The words used to describe by who the page has been last updated"
-  },
-  "theme.lastUpdated.lastUpdatedAtBy": {
-    "message": "最后{byUser}{atDate}更新",
-    "description": "The sentence used to display when a page has been last updated, and by who"
-  },
   "theme.navbar.mobileVersionsDropdown.label": {
-    "message": "选择版本",
+    "message": "Versions",
     "description": "The label for the navbar versions dropdown on mobile view"
   },
-  "theme.tags.tagsListLabel": {
-    "message": "标签：",
-    "description": "The label alongside a tag list"
-  },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "关闭",
+    "message": "Close",
     "description": "The ARIA label for close button of announcement bar"
   },
-  "theme.blog.sidebar.navAriaLabel": {
-    "message": "最近博文导航",
-    "description": "The ARIA label for recent posts in the blog sidebar"
+  "blogCategoriesNav.all": {
+    "message": "All"
+  },
+  "blogCategoryPostsPage.posts": {
+    "message": "“{category_name}” Posts"
   },
   "theme.CodeBlock.copied": {
-    "message": "复制成功",
+    "message": "Copied",
     "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "复制代码到剪贴板",
+    "message": "Copy code to clipboard",
     "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.copy": {
-    "message": "复制",
+    "message": "Copy",
     "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "切换自动换行",
+    "message": "Toggle word wrap",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
-    "message": "打开/收起侧边栏菜单「{label}」",
+    "message": "Toggle the collapsible sidebar category '{label}'",
     "description": "The ARIA label to toggle the collapsible sidebar category"
   },
   "theme.NavBar.navAriaLabel": {
-    "message": "主导航",
+    "message": "Main",
     "description": "The ARIA label for the main navigation"
   },
-  "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "本页总览",
-    "description": "The label used by the button on the collapsible TOC component"
-  },
   "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "选择语言",
+    "message": "Languages",
     "description": "The label for the mobile language switcher dropdown"
   },
-  "theme.blog.post.readMore": {
-    "message": "阅读更多",
-    "description": "The label used in blog post item excerpts to link to full blog posts"
+  "blogPostItem.tags": {
+    "message": "Tags:"
   },
-  "theme.blog.post.readMoreLabel": {
-    "message": "阅读 {title} 的全文",
-    "description": "The ARIA label for the link to full blog posts from excerpts"
+  "blogPostItem.share": {
+    "message": "Share to"
   },
-  "theme.blog.post.readingTime.plurals": {
-    "message": "阅读需 {readingTime} 分钟",
-    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  "blogPostItem.readingTime": {
+    "message": "{reading_time} min read"
+  },
+  "blogPostItem.relatedPosts": {
+    "message": "Related Posts"
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "主页面",
+    "message": "Home page",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "收起侧边栏",
+    "message": "Collapse sidebar",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "收起侧边栏",
+    "message": "Collapse sidebar",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.navAriaLabel": {
-    "message": "文档侧边栏",
+    "message": "Docs sidebar",
     "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "message": "关闭导航栏",
+    "message": "Close navigation bar",
     "description": "The ARIA label for close button of mobile sidebar"
   },
-  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "切换导航栏",
-    "description": "The ARIA label for hamburger menu button of mobile navigation"
-  },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
-    "message": "← 回到主菜单",
+    "message": "← Back to main menu",
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Toggle navigation bar",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
   "theme.docs.sidebar.expandButtonTitle": {
-    "message": "展开侧边栏",
+    "message": "Expand sidebar",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
-    "message": "展开侧边栏",
+    "message": "Expand sidebar",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
+  "theme.ErrorPageContent.title": {
+    "message": "This page crashed.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.NotFound.title": {
+    "message": "Page Not Found",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "We could not find what you were looking for.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.admonition.note": {
+    "message": "note",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "tip",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.danger": {
+    "message": "danger",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "info",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.caution": {
+    "message": "caution",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.blog.archive.title": {
+    "message": "Archive",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Archive",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Blog list page navigation",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Newer Entries",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Older Entries",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Blog post page navigation",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Newer Post",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Older Post",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.blog.post.plurals": {
+    "message": "One post|{count} posts",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} tagged with \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.common.editThisPage": {
+    "message": "Edit this page",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Direct link to {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " on {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " by {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Last updated{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Tags:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Blog recent posts navigation",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "On this page",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Read More",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Read more about {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "One min read|{readingTime} min read",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
   "theme.SearchBar.seeAll": {
-    "message": "查看全部 {count} 个结果"
+    "message": "See all {count} results"
   },
   "theme.SearchPage.documentsFound.plurals": {
-    "message": "找到 {count} 份文件",
+    "message": "One document found|{count} documents found",
     "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.SearchPage.existingResultsTitle": {
-    "message": "「{query}」的搜索结果",
+    "message": "Search results for \"{query}\"",
     "description": "The search page title for non-empty query"
   },
   "theme.SearchPage.emptyResultsTitle": {
-    "message": "在文档中搜索",
+    "message": "Search the documentation",
     "description": "The search page title for empty query"
   },
   "theme.SearchPage.inputPlaceholder": {
-    "message": "在此输入搜索字词",
+    "message": "Type your search here",
     "description": "The placeholder for search page input"
   },
   "theme.SearchPage.inputLabel": {
-    "message": "搜索",
+    "message": "Search",
     "description": "The ARIA label for search page input"
   },
   "theme.SearchPage.algoliaLabel": {
-    "message": "通过 Algolia 搜索",
+    "message": "Search by Algolia",
     "description": "The ARIA label for Algolia mention"
   },
   "theme.SearchPage.noResultsText": {
-    "message": "未找到任何结果",
+    "message": "No results were found",
     "description": "The paragraph for empty search result"
   },
   "theme.SearchPage.fetchingNewResults": {
-    "message": "正在获取新的搜索结果...",
+    "message": "Fetching new results...",
     "description": "The paragraph for fetching new search results"
   },
   "theme.SearchBar.label": {
-    "message": "搜索",
+    "message": "Search",
     "description": "The ARIA label and placeholder for search button"
   },
   "theme.SearchModal.searchBox.resetButtonTitle": {
-    "message": "清除查询",
+    "message": "Clear the query",
     "description": "The label and ARIA label for search box reset button"
   },
   "theme.SearchModal.searchBox.cancelButtonText": {
-    "message": "取消",
+    "message": "Cancel",
     "description": "The label and ARIA label for search box cancel button"
   },
   "theme.SearchModal.startScreen.recentSearchesTitle": {
-    "message": "最近搜索",
+    "message": "Recent",
     "description": "The title for recent searches"
   },
   "theme.SearchModal.startScreen.noRecentSearchesText": {
-    "message": "没有最近搜索",
+    "message": "No recent searches",
     "description": "The text when no recent searches"
   },
   "theme.SearchModal.startScreen.saveRecentSearchButtonTitle": {
-    "message": "保存这个搜索",
+    "message": "Save this search",
     "description": "The label for save recent search button"
   },
   "theme.SearchModal.startScreen.removeRecentSearchButtonTitle": {
-    "message": "从历史记录中删除这个搜索",
+    "message": "Remove this search from history",
     "description": "The label for remove recent search button"
   },
   "theme.SearchModal.startScreen.favoriteSearchesTitle": {
-    "message": "收藏",
+    "message": "Favorite",
     "description": "The title for favorite searches"
   },
   "theme.SearchModal.startScreen.removeFavoriteSearchButtonTitle": {
-    "message": "从收藏列表中删除这个搜索",
+    "message": "Remove this search from favorites",
     "description": "The label for remove favorite search button"
   },
   "theme.SearchModal.errorScreen.titleText": {
-    "message": "无法获取结果",
+    "message": "Unable to fetch results",
     "description": "The title for error screen of search modal"
   },
   "theme.SearchModal.errorScreen.helpText": {
-    "message": "你可能需要检查网络连接。",
+    "message": "You might want to check your network connection.",
     "description": "The help text for error screen of search modal"
   },
   "theme.SearchModal.footer.selectText": {
-    "message": "选中",
+    "message": "to select",
     "description": "The explanatory text of the action for the enter key"
   },
   "theme.SearchModal.footer.selectKeyAriaLabel": {
-    "message": "Enter 键",
+    "message": "Enter key",
     "description": "The ARIA label for the Enter key button that makes the selection"
   },
   "theme.SearchModal.footer.navigateText": {
-    "message": "导航",
+    "message": "to navigate",
     "description": "The explanatory text of the action for the Arrow up and Arrow down key"
   },
   "theme.SearchModal.footer.navigateUpKeyAriaLabel": {
-    "message": "向上键",
+    "message": "Arrow up",
     "description": "The ARIA label for the Arrow up key button that makes the navigation"
   },
   "theme.SearchModal.footer.navigateDownKeyAriaLabel": {
-    "message": "向下键",
+    "message": "Arrow down",
     "description": "The ARIA label for the Arrow down key button that makes the navigation"
   },
   "theme.SearchModal.footer.closeText": {
-    "message": "关闭",
+    "message": "to close",
     "description": "The explanatory text of the action for Escape key"
   },
   "theme.SearchModal.footer.closeKeyAriaLabel": {
-    "message": "Esc 键",
+    "message": "Escape key",
     "description": "The ARIA label for the Escape key button that close the modal"
   },
   "theme.SearchModal.footer.searchByText": {
-    "message": "搜索提供",
+    "message": "Search by",
     "description": "The text explain that the search is making by Algolia"
   },
   "theme.SearchModal.noResultsScreen.noResultsText": {
-    "message": "没有结果：",
+    "message": "No results for",
     "description": "The text explains that there are no results for the following search"
   },
   "theme.SearchModal.noResultsScreen.suggestedQueryText": {
-    "message": "试试搜索",
+    "message": "Try searching for",
     "description": "The text for the suggested query when no results are found for the following search"
   },
   "theme.SearchModal.noResultsScreen.reportMissingResultsText": {
-    "message": "认为这个查询应该有结果？",
+    "message": "Believe this query should return results?",
     "description": "The text for the question where the user thinks there are missing results"
   },
   "theme.SearchModal.noResultsScreen.reportMissingResultsLinkText": {
-    "message": "请告知我们。",
+    "message": "Let us know.",
     "description": "The text for the link to report missing results"
   },
   "theme.SearchModal.placeholder": {
-    "message": "搜索文档",
+    "message": "Search docs",
     "description": "The placeholder of the input of the DocSearch pop-up modal"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "重试",
+    "message": "Try again",
     "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.common.skipToMainContent": {
-    "message": "跳到主要内容",
+    "message": "Skip to main content",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsPageTitle": {
-    "message": "标签",
+    "message": "Tags",
     "description": "The title of the tag list page"
-  },
-  "waitlist.title": {
-    "message": "Answer Cloud 即将发布!"
-  },
-  "waitlist.description": {
-    "message": "我们正在努力构建 Answer Cloud 解决方案。你可以填写表格，以获取最新的产品更新、开发灵感和用户研究案例。我们将始终守护你的信息安全。"
-  },
-  "loading": {
-    "message": "加载中..."
-  },
-  "home.waitlist.title": {
-    "message": "👋 加入 Answer Cloud 等候名单"
-  },
-  "home.title": {
-    "message": "用 Answer {br} 构建问答社区"
-  },
-  "home.description": {
-    "message": "一款开源知识共享社区软件 {br} 你可以快速为你的产品、客户、团队等构建问答社区。"
-  },
-  "home.btn.started": {
-    "message": "开始使用"
-  },
-  "home.features.title1": {
-    "message": "问答社区"
-  },
-  "home.features.title2": {
-    "message": "内容管理"
-  },
-  "home.features.title3": {
-    "message": "插件拓展"
-  },
-  "home.features.title4": {
-    "message": "趣味十足"
-  },
-  "home.features.item1": {
-    "message": "帮助成员解答问题，提升社区参与度。社区内的专业人士将乐于分享、验证和点赞正确的信息。社区内的信息是可靠的，并将始终保持最新。"
-  },
-  "home.features.item2": {
-    "message": "使用标签将问题和内容进行归类。这样使寻找所需的知识变得更加轻松。你也可以使用搜索功能快速找到答案。"
-  },
-  "home.features.item3": {
-    "message": "通过插件和你喜爱的服务来配置你的社区。这样可以改进工作流程、扩张社区规模，或者让你的其他工具变得更好。"
-  },
-  "home.features.comming_soon": {
-    "message": "即将发布"
-  },
-  "home.features.item4": {
-    "message": "我们通过声望和徽章让问答平台变得更加有趣，这使社区成员和团队在合作及完成工作时会感到愉快。"
-  },
-  "home.features.title": {
-    "message": "功能"
-  },
-  "home.contribute.title": {
-    "message": "我们欢迎所有开发者"
-  },
-  "home.contribute.ways": {
-    "message": "以下是可以为社区做出贡献的方式。"
-  },
-  "home.contribute.item1": {
-    "message": "在 GitHub 上为我们的开源代码库做出贡献"
-  },
-  "home.contribute.item2": {
-    "message": "帮助我们完善文档"
-  },
-  "home.contribute.item3": {
-    "message": "帮助我们翻译语言资源"
-  },
-  "contactHeader.title": {
-    "message": "联系我们"
-  },
-  "contactHeader.slogon": {
-    "message": "我们总能为你的问题找到答案"
-  },
-  "contact.email": {
-    "message": "发送邮件至 {br} support@answer.dev"
-  },
-  "contact.getSupport": {
-    "message": "获取帮助"
-  },
-  "contact.marketing.title": {
-    "message": "市场合作"
-  },
-  "contact.marketing.email": {
-    "message": "发送邮件至 {email}"
-  },
-  "contact.above.title": {
-    "message": "以上都不是"
-  },
-  "contact.above.description": {
-    "message": "如果没有找到你需要的内容，请使用下面的表单提交你的请求。我们将尽快回复你。"
-  },
-  "contact.title": {
-    "message": "联系我们"
-  },
-  "contact.slogon": {
-    "message": "我们总能为你的问题找到答案。"
-  },
-  "Contact Us": {
-    "message": "联系我们"
-  },
-  "contact.community": {
-    "message": "咨询 {br} Answer 社区"
-  },
-  "contact.twitter": {
-    "message": "在 Twitter 上发送推文或私信 {br} @AnswerDev"
   }
 }
