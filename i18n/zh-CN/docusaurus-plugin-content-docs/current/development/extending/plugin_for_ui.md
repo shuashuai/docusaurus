@@ -1,24 +1,23 @@
 ---
-sidebar_label: 开发 UI 插件
+sidebar_label: Plugin for UI
 sidebar_position: 2
 ---
 
-# 开发 UI 插件
+# Develop a UI plug-in
 
-UI 插件与 [标准插件](/docs/development/extending/) 或 React 组件并没有太大的区别，只需要一些配置和包装即可。
+A UI plugin is not so different from a [standard plugin](/docs/development/extending/) or React component, it just needs some configuration and wrapping.
 
-在学习了上述文档中的标准插件开发，并且理解了 React 组件之后，让我们来看一下开发 UI 插件的逐步指南。
+Having learned how to develop a standard plugin from the above documentation, and having understood React components. let's move on to a step-by-step guide to developing a ui plugin.
 
 ---
 
-## 开发阶段
+## Development phase
 
-* 进入 `ui/src/plugins` 目录并创建一个 React 组件，例如 `Demo`。
+* Go to the `ui/src/plugins` directory and create a React component, such as `Demo`.
 
-* 为 `Demo` 组件创建入口文件 `index.tsx`。
+* Create the entry file `index.tsx` for the `Demo` component.
 
-* 在入口文件旁创建插件信息文件 `info.yaml`。常用字段如下
-
+* Create the plugin information file `info.yaml` next to the entry file. Commonly used fields are as follows
 ```yaml
 # info.yaml
 slug_name: ui_plugin_demo
@@ -26,8 +25,7 @@ version: 0.0.1
 author:  Answer.dev
 ```
 
-* 在 `index.tsx` 文件中编写所需的任何 React 组件，并导出如下
-
+* Write any React component you need in the `index.tsx` file and export it as follows
 ```ts
 // plugins/index.ts
 export default {
@@ -37,30 +35,27 @@ export default {
 ```
 
 :::caution
+- It must be exported in this way. `pluginInfo` type definitions can be found in the [Type Definitions](#type-definitions) section below
 
-* 必须以这种方式导出。`pluginInfo` 的类型定义可以在下面的 [类型定义](#type-definitions) 部分中找到。
+- The file names must be `index.tsx` and `info.yaml`, otherwise it will affect the use of the component.  
 
-* 文件名必须为 `index.tsx` 和 `info.yaml`，否则会影响组件的使用。
 :::
 
-* 在插件列表文件 `plugins/index.ts` 中导出你刚刚定义的插件
-
+* Export the plugins you have just defined in the plugins list file `plugins/index.ts`
 ```ts
 export { default as Demo } from './Demo';
 ```
 
-* 现在，你可以在需要它的地方使用 `PluginRender` 组件来渲染刚刚定义的插件！
-
+* Now you can use the `PluginRender` component to render the just-defined plugin where you want it!
 ```tsx
 <PluginRender slug_name="ui_plugin_demo" />
 ```
+With the above, if your plugin is functionally complete, you are ready to move on to the release phase.
 
-通过以上步骤，如果你的插件功能已经完成，那么你准备进入发布阶段了。
 
-## 发布阶段
+## Release phase
 
-* F首先，为组件定义发布注册文件。以 `Demo` 为例，我们编写一个 `demo.go`
-
+* First, define the release registration file for the component. Using `Demo` as an example, we write a `demo.go`
 ```go
 // demo.go
 package demo
@@ -71,34 +66,32 @@ type DemoPlugin struct {
 }
 
 func init() {
- plugin.Register(&DemoPlugin{})
+    plugin.Register(&DemoPlugin{})
 }
 
 func (d DemoPlugin) Info() plugin.Info {
- return plugin.Info{
-  Name:        plugin.MakeTranslator("i18n.demo.name"),
-  SlugName:    "demo_plugin",
-  Description: plugin.MakeTranslator("i18n.demo.description"),
-  Author:      "answerdev",
-  Version:     "0.0.1",
- }
+    return plugin.Info{
+        Name:        plugin.MakeTranslator("i18n.demo.name"),
+        SlugName:    "demo_plugin",
+        Description: plugin.MakeTranslator("i18n.demo.description"),
+        Author:      "answerdev",
+        Version:     "0.0.1",
+    }
 }
 ```
-
 :::info
-有关详细定义，请参见 [扩展](/docs/development/extending/) 部分。
+For detailed definitions, see the [Extension](/docs/development/extending/) section.
 :::
 
-* 然后，将整个 `Demo` 目录移动到[官方插件存储库](https://github.com/answerdev/plugins) 中，提交合并请求即可发布插件。
+* Then, move the entire `Demo` directory to the [official plugins repository](https://github.com/answerdev/plugins) and submit a PR request for merging, and you've released the plugin.
 
 ---
 
-## 插件的国际化
+## I18n for plug-ins
 
-* 在 `Demo` 目录下创建一个 `i18n` 目录，并添加一个语言文件，格式为 `yaml`，例如 `en_US.yaml`。
-  * `plugin` 和 `ui` 字段是固定的，并且必须使用这两个名称。
-  * `ui_plugin_demo` 部分是插件的 `slug_name`，它是在 `info.yaml` 中定义的 `slug_name` 字段的值。
-
+* Create an `i18n` directory under the `Demo` directory and add a language file in `yaml` format, e.g. `en_US.yaml`.
+    - The `plugin` and `ui` fields are fixed and must be used with these two names.
+    - The `ui_plugin_demo` section is the `slug_name` for the plugin, which is the value of the `slug_name` field defined in `info.yaml`.
 ```yaml
 # en_US.yaml
 plugin:
@@ -107,8 +100,7 @@ plugin:
       msg: UI Plugin Demo
 ```
 
-* 在 `i18n` 目录中创建 `index.ts` 文件，并使用 `pluginKit` 工具初始化语言资源。
-
+* Create `index.ts` in the `i18n` directory and initialise the language resources with the `pluginKit` tool.
 ```ts
 import pluginKit from '@/utils/pluginKit';
 
@@ -121,8 +113,7 @@ pluginKit.initI18nResource({
 });
 ```
 
-* 在插件的 `index.tsx` 文件中导入语言资源文件，并使用 `pluginKit` 初始化 `t`函数。然后你可以像正常的 `t` 函数一样使用 `t` 函数。
-
+* Import the language resource file in the `index.tsx` file of the plugin and initialise the `t` function with the `pluginKit`. Then you can use the `t` function in the same way as a normal `t` function.
 ```tsx
 import pluginKit, { PluginInfo } from '@/utils/pluginKit';
 import './i18n';
@@ -136,10 +127,9 @@ const Index: FC = () => {
 };
 ```
 
-详细信息请参考 [示例](#example) 部分
+For details, please refer to the [example](#example) section
 
-## 类型定义
-
+## Type definitions
 ```ts
 export type PluginType = 'Connector';
 
@@ -166,10 +156,10 @@ interface I18nResource {
 }
 ```
 
-## 示例
+## Example
 
-完成 `Demo` 插件开发后的最终目录结构如下图所示。
+The final directory structure after the development of the `Demo` plugin is shown in the figure.
 
 ![ui-plugin-demo](/img/docs/ui-plugin-demo.jpeg)
 
-你还可以查看 Demo [Demo 示例代码](https://github.com/answerdev/answer/tree/main/ui/src/plugins/Demo) 以获取更多信息。
+You can also see the [Demo sample code](https://github.com/answerdev/answer/tree/main/ui/src/plugins/Demo) for more information.
